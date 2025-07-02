@@ -1,99 +1,39 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Washington Henrique - Portfólio</title>
-    <link rel="stylesheet" href="style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* For custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0b0b1e;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #8257e6;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #6a48c7;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
 </head>
-<body>
-
-    <header>
-        <div class="container">
-            <img src="placeholder.jpg" alt="Foto de Washington Henrique" class="profile-pic">
-            <h1>Washington Henrique Fernandes de Sousa</h1>
-            <p>Programador | Designer | Front-end</p>
-        </div>
-    </header>
-
-    <section id="trajectory">
-        <div class="container">
-            <h2>Trajetória até aqui</h2>
-            <div class="trajectory-content">
-                <div class="trajectory-item">
-                    <h3>Área Profissional</h3>
-                    <ul>
-                        [cite_start]<li>Desenvolvedor Front-end na SuperGochis [cite: 40]</li>
-                        [cite_start]<li>Designer e Suporte em Hardware na Alaraan [cite: 41]</li>
-                    </ul>
-                </div>
-                <div class="trajectory-item">
-                    <h3>Acadêmica</h3>
-                    <p>Formação e estudos relevantes seriam inseridos aqui.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="container">
-            <h2>Tecnologias e Habilidades</h2>
-            <div class="skills-container">
-                <span class="skill">HTML5</span>
-                <span class="skill">CSS3</span>
-                <span class="skill">JavaScript</span>
-                <span class="skill">React</span>
-                <span class="skill">UI/UX Design</span>
-                </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2>Trabalhos e Projetos</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>Move.it</h3>
-                    <p>Um projeto para aplicar técnicas de gamificação no dia a dia.</p>
-                    <a href="#">Ver projeto em vídeo</a>
-                </div>
-                 <div class="project-card">
-                    <h3>Outro Projeto</h3>
-                    <p>Descrição do outro projeto realizado.</p>
-                    <a href="#">Ver projeto</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="testimonials">
-        <div class="container">
-            <h2>Depoimentos</h2>
-             <div class="testimonial">
-                <p>"Depoimento de um colega ou cliente sobre o trabalho do Washington."</p>
-                <cite>- Rumarie Lima</cite>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container">
-            <h2>Entre em Contato</h2>
-            <p>Vamos conversar! Envie uma mensagem.</p>
-            <form>
-                <input type="text" placeholder="Seu Nome" required>
-                <input type="email" placeholder="Seu Email" required>
-                <textarea placeholder="Sua Mensagem" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Washington Henrique Fernandes de Sousa. Todos os direitos reservados.</p>
-        </div>
-    </footer>
-
-</body>
+  <body class="bg-[#0b0b1e] text-gray-300">
+    <div id="root"></div>
+  </body>
 </html>
