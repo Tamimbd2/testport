@@ -1,0 +1,142 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+/* Sections */
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+/* Trajectory */
+#trajectory {
+    background: #fff;
+}
+
+.trajectory-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+/* Skills */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.skill {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+
+/* Projects */
+#projects {
+    background: #fff;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+/* Testimonials */
+.testimonial {
+    max-width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* Contact */
+#contact {
+    background: #fff;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input, form textarea {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
